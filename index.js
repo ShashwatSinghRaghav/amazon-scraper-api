@@ -6,6 +6,7 @@ const app = express();
 
 app.use(express.json());
 
+const apiKey = '925f6cefa075782cea4e4d04e2128d28';
 const returnScraperApiUrl = (apiKey) => `http://api.scraperapi.com?api_key=${apiKey}&autoparse=true`;
 
 // Welcome route
